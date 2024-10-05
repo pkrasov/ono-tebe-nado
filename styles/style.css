@@ -1,4 +1,3 @@
-
 .header {
   display: grid;
   height: 293px;
@@ -41,7 +40,6 @@
   justify-self: end;
   align-self: center;
   text-underline-position: under;
-  
 }
 
 .cover {
@@ -50,7 +48,6 @@
   /*flex-wrap: wrap;*/
   height: 757px;
   width: 100%;
-  
 }
 
 .cover-title {
@@ -82,10 +79,10 @@
 }
 
 .cover-image {
-  position: absolute;  
+  position: absolute;
   width: 1100px;
   height: 757px;
-  filter: brightness(40%) ;
+  filter: brightness(40%);
   z-index: -1;
 }
 
@@ -104,7 +101,7 @@
   align-items: center;
   padding-right: 50px;
   padding-left: 78px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .cover-bottom-font {
@@ -120,57 +117,56 @@
 
 .word-space-bigger {
   word-spacing: 0.9em;
-  
 }
 
 .letter-space-biggest {
   letter-spacing: 1.1em;
 }
 
-.cover-button{
-    background: transparent;
-    color: white;
-    border: 1px;
-    border-color: white;
-    border-style: groove;
-    height: 51px;
-    width: 256px;    
+.cover-button {
+  background: transparent;
+  color: white;
+  border: 1px;
+  border-color: white;
+  border-style: groove;
+  height: 51px;
+  width: 256px;
 }
- 
-.lots{
-  width: 100%;  
-  padding: 182px 24px 146px  24px ;
+
+.lots {
+  width: 100%;
+  padding: 182px 24px 146px 24px;
 }
-.lot-title{
+.lot-title {
   padding-left: 40px;
   padding-bottom: 27px;
 }
-.card{
-  display: flex;  
+.card {
+  display: flex;
   flex-wrap: wrap;
   align-content: space-between;
   width: 334px;
   height: 563px;
-/*  padding-top: 27px; */ 
- }
-h1{
+  /*  padding-top: 27px; */
+}
+h1 {
   font-size: 40px;
-  font-weight: bold;    
-  text-transform: uppercase; 
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-h2{
+h2 {
   font-size: 22px;
   font-weight: bold;
-  text-decoration: underline;  
+  text-decoration: underline;
   color: white;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
-.card-title{
+.card-title {
   padding-top: 51px;
   padding-left: 40px;
 }
-.card-text{
+.card-text {
   font-size: 20px;
   line-height: 1.2em;
   color: white;
@@ -179,10 +175,10 @@ h2{
   padding-bottom: 48px;
 }
 .card-image {
-  position: absolute;  
+  position: absolute;
   width: 334px;
   height: 563px;
-  filter: brightness(40%) ;
+  filter: brightness(40%);
   z-index: -1;
 }
 
@@ -191,80 +187,79 @@ h2{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 25px;  
+  gap: 25px;
   padding-bottom: 30px;
 }
 
-.lot-more{
+.lot-more {
   font-size: 20px;
   text-underline-position: under;
   padding-left: 40px;
 }
-.about{
+.about {
   display: grid;
   grid-template-columns: 383px 2fr;
   height: 595px;
-
 }
-.about-column{
+.about-column {
   padding-left: 71px;
   padding-top: 35px;
 }
-.about-circle{  
+.about-circle {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 240px;
   height: 240px;
   background-color: black;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
-.about-image{
+.about-image {
   width: 148px;
   height: 114px;
 }
-.about-title{
-  padding-top: 133px;  
+.about-title {
+  padding-top: 133px;
   padding-bottom: 100px;
 }
-.about-text{
+.about-text {
   font-size: 20px;
   line-height: 24px;
   padding-bottom: 24px;
   padding-right: 24px;
 }
-.about-ls-lowest{
+.about-ls-lowest {
   letter-spacing: -0.01em;
 }
-.about-ls-lower{
+.about-ls-lower {
   letter-spacing: 0.01em;
 }
-.about-ls-low{
+.about-ls-low {
   letter-spacing: 0.02em;
 }
-.about-ls-low3{
+.about-ls-low3 {
   letter-spacing: 0.03em;
 }
-.about-ls-low4{
+.about-ls-low4 {
   letter-spacing: 0.04em;
 }
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 88px;
   padding-top: 180px;
 }
-.address-start{
+.address-start {
   justify-self: start;
   width: 290px;
   padding-left: 50px;
 }
-.footer-menu{
+.footer-menu {
   justify-self: center;
   text-align: center;
   font-size: 18px;
 }
-.footer-socials{
+.footer-socials {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -272,7 +267,7 @@ h2{
   justify-self: right;
   padding-right: 50px;
 }
-.social-image{
+.social-image {
   width: 48px;
   height: 48px;
 }
